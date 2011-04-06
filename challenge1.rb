@@ -20,3 +20,4 @@ total = []
 (0..99).each{ |i| total[i] = countp(people, i) }
 total = total.sort
 puts total[-3..-1]
+
