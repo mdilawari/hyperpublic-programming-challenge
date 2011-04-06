@@ -2,7 +2,8 @@ people=[]
 File.open("challenge2input.txt").each_with_index { |line, influenceId|
   influence =   line.split(//)
   people[influenceId] = []
-  influence.each_with_index{ |x, i| people[influenceId] <<i if x == 'X' }
+  influence.each_with_index{ |x, i| people[influenceId] <<i if x == 'X' 
+                           }
 }
 
 
